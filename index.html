@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather App</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="main" id="m">
+            
+            <div class="search">
+                <input type="text" id="input">
+                <button type="submit" class="btn" name="button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="temp">
+                <div class="loader"></div>
+                <h1 id="temperature"><span></span></h1>
+            </div>
+            <div class="below">
+                <div class="inner">
+                    <h3 class="cityname"></h3>
+                    <h3 class="country"></h3>
+                    <h3 class="pressure"></h3>
+                    <h3 class="humidity"></h3>
+                    <h3 class="sunrise"></h3>
+                    <h3 class="description"></h3>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
