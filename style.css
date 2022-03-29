@@ -3,9 +3,9 @@
     padding:0;
     font-family: 'Ubuntu', sans-serif;
 }
-body{
+.main-wrapper{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,4 +97,11 @@ body{
     text-align: center;
     margin-top: 40px;
 }
-/* .inner h */
+.copyrights {
+    text-align: center;
+    padding: 22px 0;
+    background: rgb(5, 66, 94);
+}
+.copyrights h3 {
+    color: skyblue;
+}
