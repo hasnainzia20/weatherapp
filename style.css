@@ -54,6 +54,10 @@
     border: none;
     border-bottom: 2px solid skyblue;
 }
+.main input::placeholder {
+    color: skyblue;
+    font-weight: 100;
+}
 
 .main h1{
     position: absolute;
